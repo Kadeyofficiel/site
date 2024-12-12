@@ -9,8 +9,8 @@
     --bg-light: #f8f9fa;          /* Gris très clair */
     --bg-dark: #34495e;           /* Gris bleu profond */
     
-    --gradient-primary: linear-gradient(135deg, #3498db, #2ecc71);
-    --gradient-secondary: linear-gradient(135deg, #9b59b6, #3498db);
+    --gradient-primary: linear-gradient(135deg, #3498db, #3498db);
+    --gradient-secondary: linear-gradient(135deg, #3498db, #3498db);
 }
 
 /* Reset et base */
@@ -203,4 +203,16 @@ h1:hover, h2:hover, h3:hover {
 
 #theme-toggle i {
     font-size: 1.2rem;
+}
+.image-container {
+    width: 400px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    margin: 100px auto;
+    overflow: hidden; /* Hide overflow */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+.image-container img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Limit max height */
 }

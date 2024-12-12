@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             title: 'Puissance 4',
-            description: 'Jeu Puissance 4 en langage C',
-            technologies: ['C', 'Algorithmes'],
+            description: 'Jeu de Puissance 4',
+            technologies: ['Langage C'],
             details: `
                 <div class="project-details">
                     <h3 class="text-3xl font-bold mb-6 text-indigo-600">Puissance 4 en C</h3>
